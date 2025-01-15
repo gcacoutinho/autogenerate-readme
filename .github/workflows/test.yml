@@ -9,8 +9,6 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.token }}
       - name: Generate README.md
         run: chmod +x ./autogenerate_readme.sh && ./autogenerate_readme.sh
       - name: Commit and Push README.md
