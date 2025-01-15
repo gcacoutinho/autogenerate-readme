@@ -1,4 +1,3 @@
- - [](.)
  - [AnotherTest](./AnotherTest)
 	 - [AnotherTestReadme](./AnotherTest/AnotherTestReadme.md)
 	 - [ANewReadme](./AnotherTest/ANewReadme.md)
